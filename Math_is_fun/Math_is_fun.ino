@@ -8,16 +8,17 @@
 //******************************* INCLUDES ****************************************
 
 //******************************* VARIABLES ***************************************
+//define the variables
 int a = 5;
 int b = 10;
 int c = 20;
 
 //******************************** SETUP ******************************************
-void setup()              // run once, when the sketch starts
+void setup()              // run one when the arduino starts
 {
-  Serial.begin(9600);     // set up Serial library at 9600 bps
+  Serial.begin(9600);     // opens serial port, sets data rate to 9600 bps
 
-  Serial.println("Here is some math: ");
+  Serial.println(" Here is some math: ");
 
   Serial.print("a = ");
   Serial.println(a);
