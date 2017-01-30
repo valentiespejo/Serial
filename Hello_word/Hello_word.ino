@@ -10,16 +10,16 @@
 //******************************* VARIABLES ***************************************
 
 //******************************** SETUP ******************************************
-void setup()// run once, when the sketch starts
+void setup()// run once, when the arduino starts
 {
   Serial.begin(9600);       // set up Serial library at 9600 bps
-
+  Serial.println("Hello world!"); // prints one Hello world! with brake line
 }
 
 //********************************* LOOP ******************************************
 void loop()// run over and over again
 {
-   Serial.print("Hello world!"); // prints Hello world! with brake line 
+  //no program on loop part
 }
 
 //******************************* FUNCIONS ****************************************
