@@ -18,16 +18,16 @@ void setup()              // run one when the arduino starts
 {
   Serial.begin(9600);     // opens serial port, sets data rate to 9600 bps
 
-  Serial.println(" Here is some math: ");
+  Serial.println(" Here is some math: "); //first line in terminal
 
-  Serial.print("a = ");
-  Serial.println(a);
+  Serial.print("a = "); // define the variable in terminal
+  Serial.println(a); // in a new line the variable ( a = 5 )
   Serial.print("b = ");
   Serial.println(b);
   Serial.print("c = ");
   Serial.println(c);
 
-  Serial.print("a + b = ");       // add
+  Serial.print("a + b = ");       // add 
   Serial.println(a + b);
 
   Serial.print("a * c = ");       // multiply
@@ -44,7 +44,7 @@ void setup()              // run one when the arduino starts
 }
 
 //********************************* LOOP ******************************************
-void loop()  // we need this to be here even though its empty
+void loop()  // no program on loop part
 {
 }
 //******************************* FUNCIONS ****************************************
