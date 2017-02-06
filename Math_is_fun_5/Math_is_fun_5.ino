@@ -9,7 +9,7 @@
 
 //******************************* VARIABLES ***************************************
 //define the variable
-int drive_gb = 100; //define 100 GB
+long drive_gb = 100; //define 100 GB
 long drive_mb; // change int for long to get more numbers
 //******************************** SETUP ******************************************
 void setup()             
