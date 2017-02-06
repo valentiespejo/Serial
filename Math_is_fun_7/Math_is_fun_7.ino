@@ -22,7 +22,7 @@ void setup()
   Serial.print("Now it is "); //Second line on terminal
   Serial.println(test); // the result number
 //* 32767 is the last number on a 32 bytes variable and the number 
- converts to negative *//
+ converts to negative until 32767*//
 }
 
 //********************************* LOOP ******************************************
