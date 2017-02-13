@@ -20,7 +20,7 @@ void setup()              // run once, when the arduino starts
     Serial.print("Aigua supera els 100C, esta bullint!");
   }
 
-
+}
   //********************************* LOOP ******************************************
   void loop()  // no program in loop part
   {
