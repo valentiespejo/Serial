@@ -19,7 +19,9 @@ void setup()              // run once, when the arduino starts
   {
     Serial.print(i);
     if (i<=(comptar-1))
+    {
     Serial.print("-");
+    }
   }
   }
 
