@@ -8,7 +8,7 @@
 //******************************* INCLUDES ****************************************
 
 //******************************* VARIABLES ***************************************
-float qualEnergy = 10; // define the variable in a decimal form
+float qualEnergy = 33; // define the variable in a decimal form
 //******************************** SETUP ******************************************
 void setup()              // run once, when the arduino starts
 {
