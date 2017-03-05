@@ -51,6 +51,7 @@ void loop() {
       Serial.println(" Euros.");
       Serial.println("");
       Serial.println("Quantes hores de treball?");
+      //after the operation the progran is ready to calculate again
     }
   }
 }
