@@ -13,18 +13,18 @@ int comptar = 11; // define the variable
 void setup()              // run once, when the arduino starts
 {
   Serial.begin(9600);       // set up Serial library at 9600 bps
-  Serial.print("Ara comptare de 0 a ");
-  Serial.println(comptar);
-  for (int i = 0; i <= comptar; i++)
+  Serial.print("Ara comptare de 0 a "); // first line on terminal
+  Serial.println(comptar); //in a new line
+  for (int i = 0; i <= comptar; i++) // write the variable anb plus one
   {
     Serial.print(i);
-    if (i<=(comptar-1))
+    if (i<=(comptar-1))//if this part is true
     {
-    Serial.print("-");
+    Serial.print("-"); // write this
     }
   }
   }
-
+// the program repeats until 11
 //********************************* LOOP ******************************************
 void loop()  // no program in loop part
 {
