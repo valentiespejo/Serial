@@ -8,7 +8,7 @@
 //******************************* INCLUDES ****************************************
 
 //******************************* VARIABLES ***************************************
-int comptar = 11; // define the variable
+int comptar = 7; // define the variable
 int i = 0;
 //******************************** SETUP ******************************************
 void setup()              // run once, when the arduino starts
